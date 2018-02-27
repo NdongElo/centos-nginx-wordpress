@@ -47,7 +47,7 @@ With this command we create on nginx based container with image **wyveo/nginx-ph
 
 
 
-## Inculde script
+## script ( exercici3.sh ) 
 You can run the following script to create a network for the containers and a create datacontainer with this image (ndongelo/centos-nginx-wordpress) which maps the nginx directory /usr/share/nginx/html/ and mariadb directory /var/lib/mysql and also runs nginx and mariadb containers.
 
 #Creating a container named datacontainer with the image centos which is mapping volumes /data:/usr/share/nginx/html/ for nginx and /data:/var/lib/mysql (database for wordpress) for mariadb.
